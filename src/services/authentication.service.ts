@@ -9,6 +9,5 @@ export function isAuthenticated(): boolean {
 
 export function login(): void {
   localStorage.setItem(LS_TOKEN_KEY, LS_TOKEN_VALUE)
-  console.log(router)
   router.push(STATUS_PATH)
 }
